@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(203, 255, 255);
+}
+.wrapper{
+    display: flex;
+    background-color: rgba(2, 102, 102, 0.596);
+    margin-top: 100px;
+    padding: 15px;
+    width: 240px;
+    justify-content: center;
+    margin-left: 570px;
+    height: 365px;
+    border: 2px solid rgb(99, 96, 96);
+    border-radius: 4px;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(6, 50px);
+    grid-template-columns: repeat(4, 50px);
+    grid-gap: 13px;
+    grid-template-areas: "display display display display"
+                         "clear clear delete delete"
+                         "seven eight nine divide"
+                         "four five six multiply"
+                         "one two three sub"
+                         "dot zero equal add";
+    
+                         
+}
+#p1{
+    text-align: right;
+    background-color: white;
+    grid-area: display;
+    padding: 15px 15px 0px 0px;
+}
+
+.item1{
+    grid-area: clear;
+}
+.item2{
+   grid-area: delete;
+}
+.item3{
+    grid-area: divide;
+}
+.item4{
+    grid-area: multiply;
+}
+.item5{
+    grid-area: sub;
+}
+.item6{
+    grid-area: add;
+}
+.item7{
+    grid-area: equal;
+}
+.item8{
+    grid-area: nine;
+}
+.item9{
+    grid-area: eight;
+}
+.item10{
+    grid-area: seven;
+}
+.item11{
+    grid-area: six;
+}
+.item12{
+    grid-area: five;
+}
+.item13{
+    grid-area: four;
+}
+.item14{
+    grid-area: three;
+}
+.item15{
+    grid-area: two;
+}
+.item16{
+    grid-area: one;
+}
+.item17{
+    grid-area: zero;
+}
+.item18{
+    grid-area: dot;
+}
+.btn{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+.opbtn{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+#del{
+    width: 113px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+#eq{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+#dot{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+#btnclear{
+    width: 113px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.836);
+}
+
