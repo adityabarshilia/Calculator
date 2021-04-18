@@ -21,10 +21,10 @@ function divide(a, b) {
     return toString(result);
 }
 
-function toString(res){
+function toString(res) {
     res = res.toFixed(3);
     res = res.toString();
-    return +res; 
+    return +res;
 }
 
 function operate(operator, x, y) {
@@ -103,10 +103,6 @@ function clearDisplay() {
 }
 
 function deleteValue() {
-    if (p1.textContent.length == '1') {
-        p1.textContent = '0';
-        return;
-    }
     p1.textContent = p1.textContent.slice(0, p1.textContent.length - 1);
     displayValue = p1.textContent;
 }
@@ -124,8 +120,8 @@ function setInput(e) {
     if (e.key === "Backspace") deleteValue();
     if (e.key === "Escape") clearDisplay();
     if (e.key === "+" || e.key === "-" || e.key === "*" || e.key === "/")
-      setOperation(e.key);
-  }
+        setOperation(e.key);
+}
 
 const p1 = document.getElementById("p1");
 const btns = document.querySelectorAll(".btn");
