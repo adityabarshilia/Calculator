@@ -9,11 +9,10 @@ body{
 .wrapper{
     display: flex;
     background-color: rgba(2, 102, 102, 0.596);
-    margin-top: 100px;
+    margin: 100px auto 0 auto;
     padding: 15px;
     width: 240px;
     justify-content: center;
-    margin-left: 570px;
     height: 365px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 5px;
